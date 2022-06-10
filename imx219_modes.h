@@ -565,6 +565,9 @@ struct sensor_regs imx219_mode7[] =
       {0x015a, 0x00},
       {0x015b, 0x2f},
       {0x0100, 0x01},
+      {0x0158, 0x01},         // Digital Gain [15:8]
+      {0x0159, 0x00},         // Digital Gain [7:0]
+      {0x0189, 0x00},         // Analog gain short exposure [7:0]
 };
 
 struct mode_def imx219_modes[] = {
