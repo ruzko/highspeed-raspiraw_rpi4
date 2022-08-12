@@ -4,3 +4,5 @@ raspiraw
 *.jpg
 *.h5
 *.hdf5
+tools/python3.lprof
+tools/estimate_vel.py.lprof
